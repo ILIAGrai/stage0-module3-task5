@@ -5,6 +5,6 @@ public class ThreeStuckVars {
         int first =1;
         int second =10;
         int third =100;
-        System.out.println(String.format("%s,%s,%s", first, second, third));
+        System.out.println(String.format("%s%s%s", first, second, third));
     }
 }
